@@ -1,5 +1,5 @@
 {
-  "remoteURL": "https://github.com/Fiz3k/My_Vault.git",
+  "remoteURL": "ssh://github.com/Fiz3k/My_Vault.git",
   "gitLocation": "",
   "syncinterval": 0,
   "isSyncOnLoad": true,

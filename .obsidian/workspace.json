@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LABS/DVWA.md",
+                "file": "CYBER KILL CHAIN/Weaponization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DVWA"
+              "title": "Weaponization"
             }
           }
         ]
@@ -188,8 +188,12 @@
   },
   "active": "da99b16779258063",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "CYBER KILL CHAIN/Reconnaissance.md",
+    "CYBER KILL CHAIN/Weaponization.md",
+    "CYBER KILL CHAIN.md",
+    "CYBER KILL CHAIN",
     "LABS/DVWA.md",
+    "Untitled.canvas",
     "Machines/THB - Fruits.md",
     "Taller AD Pentesting.md",
     "Machines/Vulnhub - Mr robot.md",
@@ -209,7 +213,6 @@
     "Pacharan.md",
     "Untitled.base",
     "Untitled 1.base",
-    "Untitled.md",
     "Studyx.canvas",
     "Welcome.md"
   ]
