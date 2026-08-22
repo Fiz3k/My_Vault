@@ -11,14 +11,17 @@
             "id": "da99b16779258063",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "studyx.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "studyx"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ]
@@ -188,18 +191,18 @@
   },
   "active": "da99b16779258063",
   "lastOpenFiles": [
-    "Docker.md",
     "Airgeddon.md",
-    "HackTheBox.md",
-    "Pentesting Web - USACH.md",
-    "studyx.md",
+    "Untitled.canvas",
     "Taller AD Pentesting.md",
+    "studyx.md",
+    "HackTheBox.md",
+    "Docker.md",
+    "Pentesting Web - USACH.md",
     "2026-08-05.md",
     "Pacharan.md",
     "Untitled.base",
     "Untitled 1.base",
     "Untitled.md",
-    "Untitled.canvas",
     "Studyx.canvas",
     "Welcome.md"
   ]
