@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Taller AD Pentesting.md",
+                "file": "LABS/DVWA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Taller AD Pentesting"
+              "title": "DVWA"
             }
           }
         ]
@@ -188,9 +188,19 @@
   },
   "active": "da99b16779258063",
   "lastOpenFiles": [
+    "Machines/THB - Fruits.md",
+    "Taller AD Pentesting.md",
+    "Machines/Vulnhub - Mr robot.md",
+    "Machines/VulnCL.md",
+    "Machines/THL - Zapasguapas.md",
+    "Machines/THB - Tortuga.md",
+    "Machines",
+    "LABS/Lab AD + SCCM.md",
+    "LABS/LAB AD + WEB docker.md",
+    "LABS/DVWA.md",
+    "LABS",
     "Untitled.canvas",
     "Airgeddon.md",
-    "Taller AD Pentesting.md",
     "studyx.md",
     "HackTheBox.md",
     "Docker.md",
