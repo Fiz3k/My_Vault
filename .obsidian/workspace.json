@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LABS/DVWA.md",
+                "file": "Pentesting Web - USACH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DVWA"
+              "title": "Pentesting Web - USACH"
             }
           }
         ]
@@ -186,39 +186,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "61767c2b83fd18db",
+  "active": "da99b16779258063",
   "lastOpenFiles": [
+    "studyx.md",
+    "Pentesting Web - USACH.md",
+    "HACK THE BOX/HackTheBox.md",
     "HACK THE BOX",
-    "CYBER KILL CHAIN/Weaponization.md",
-    "CYBER KILL CHAIN/Reconnaissance.md",
-    "CYBER KILL CHAIN/Installation.md",
-    "CYBER KILL CHAIN/Explotation.md",
-    "CYBER KILL CHAIN/Delivery.md",
-    "CYBER KILL CHAIN/Command and Control.md",
-    "CYBER KILL CHAIN/Action on Objetives.md",
-    "CYBER KILL CHAIN",
-    "Untitled.canvas",
-    "LABS/DVWA.md",
-    "Machines/THB - Fruits.md",
-    "Taller AD Pentesting.md",
     "Machines/Vulnhub - Mr robot.md",
     "Machines/VulnCL.md",
     "Machines/THL - Zapasguapas.md",
     "Machines/THB - Tortuga.md",
-    "Machines",
-    "LABS/Lab AD + SCCM.md",
+    "Machines/THB - Fruits.md",
     "LABS/LAB AD + WEB docker.md",
-    "LABS",
+    "LABS/Lab AD + SCCM.md",
+    "LABS/DVWA.md",
+    "CYBER KILL CHAIN/Action on Objetives.md",
+    "CYBER KILL CHAIN/Command and Control.md",
+    "CYBER KILL CHAIN/Installation.md",
+    "CYBER KILL CHAIN/Explotation.md",
+    "CYBER KILL CHAIN/Delivery.md",
+    "Taller AD Pentesting.md",
     "Airgeddon.md",
-    "studyx.md",
-    "HACK THE BOX/HackTheBox.md",
+    "CYBER KILL CHAIN/Reconnaissance.md",
+    "CYBER KILL CHAIN/Weaponization.md",
+    "CYBER KILL CHAIN.md",
+    "CYBER KILL CHAIN",
+    "Untitled.canvas",
+    "Machines",
+    "LABS",
+    "HackTheBox.md",
     "Docker.md",
-    "Pentesting Web - USACH.md",
     "2026-08-05.md",
     "Pacharan.md",
     "Untitled.base",
     "Untitled 1.base",
-    "Untitled.md",
     "Studyx.canvas",
     "Welcome.md"
   ]
