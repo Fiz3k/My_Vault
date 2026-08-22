@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox.md",
+                "file": "studyx.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HackTheBox"
+              "title": "studyx"
             }
           }
         ]
@@ -188,12 +188,12 @@
   },
   "active": "da99b16779258063",
   "lastOpenFiles": [
-    "Pentesting Web - USACH.md",
-    "studyx.md",
-    "HackTheBox.md",
-    "Taller AD Pentesting.md",
     "Docker.md",
     "Airgeddon.md",
+    "HackTheBox.md",
+    "Pentesting Web - USACH.md",
+    "studyx.md",
+    "Taller AD Pentesting.md",
     "2026-08-05.md",
     "Pacharan.md",
     "Untitled.base",
