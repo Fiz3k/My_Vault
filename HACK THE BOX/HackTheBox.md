@@ -19,4 +19,4 @@ done;
 
 
 Agregar ip de maquinas a hosts
-└─$ echo "10.129.97.221    unika.htb" | sudo tee -a /etc/hosts
+echo "10.129.97.221    unika.htb" | sudo tee -a /etc/hosts

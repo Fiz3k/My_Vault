@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a030e8957114ff2b",
+        "id": "71a7dae0b78f93a5",
         "type": "tabs",
         "children": [
           {
-            "id": "da99b16779258063",
+            "id": "c192c21e781fcdda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HACKING WINDOWS/Tools.md",
+                "file": "HACK THE BOX/HackTheBox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools"
+              "title": "HackTheBox"
             }
           }
         ]
@@ -186,12 +186,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "da99b16779258063",
+  "active": "c192c21e781fcdda",
   "lastOpenFiles": [
-    "HACK THE BOX/HackTheBox.md",
-    "HACKING WINDOWS/Tools.md",
-    "Machines/Vulnhub - Mr robot.md",
+    "CYBER KILL CHAIN/Reconnaissance.md",
     "Machines/VulnCL.md",
+    "Machines/Vulnhub - Mr robot.md",
+    "Machines/THB - Fruits.md",
+    "HACKING WINDOWS/Tools.md",
+    "HACK THE BOX/HackTheBox.md",
+    "MITRE ATT&CK/Reconnaissance.md",
+    "LABS/Lab AD + SCCM.md",
+    "HACKING WINDOWS/Taller AD Pentesting.md",
+    "CYBER KILL CHAIN/Installation.md",
+    "CYBER KILL CHAIN/Explotation.md",
+    "CYBER KILL CHAIN/Action on Objetives.md",
+    "Machines/THB - Tortuga.md",
     "Machines/THL - Zapasguapas.md",
     "Untitled.md",
     "DOCKER",
@@ -200,10 +209,7 @@
     "HACKING WINDOWS",
     "HACKING LINUX",
     "CYBER KILL CHAIN/Weaponization.md",
-    "CYBER KILL CHAIN/Reconnaissance.md",
     "MITRE ATT&CK/Resource Development.md",
-    "MITRE ATT&CK/Reconnaissance.md",
-    "CYBER KILL CHAIN/Action on Objetives.md",
     "2026-08-22.md",
     "Untitled.canvas",
     "LABS/DVWA.md",
@@ -212,15 +218,9 @@
     "MITRE ATT&CK",
     "studyx.md",
     "HACK THE BOX",
-    "Machines/THB - Tortuga.md",
-    "Machines/THB - Fruits.md",
     "LABS/LAB AD + WEB docker.md",
-    "LABS/Lab AD + SCCM.md",
     "CYBER KILL CHAIN/Command and Control.md",
-    "CYBER KILL CHAIN/Installation.md",
-    "CYBER KILL CHAIN/Explotation.md",
     "CYBER KILL CHAIN/Delivery.md",
-    "HACKING WINDOWS/Taller AD Pentesting.md",
     "CYBER KILL CHAIN.md",
     "CYBER KILL CHAIN",
     "Machines",
