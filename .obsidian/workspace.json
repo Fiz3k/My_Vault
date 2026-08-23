@@ -186,8 +186,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "da99b16779258063",
+  "active": "61767c2b83fd18db",
   "lastOpenFiles": [
+    "DOCKER",
+    "WIFI AUDIT",
+    "PENTESTING WEB",
+    "HACKING WINDOWS",
+    "HACKING LINUX",
+    "CYBER KILL CHAIN/Weaponization.md",
+    "Untitled.md",
     "CYBER KILL CHAIN/Reconnaissance.md",
     "MITRE ATT&CK/Resource Development.md",
     "MITRE ATT&CK/Reconnaissance.md",
@@ -196,8 +203,8 @@
     "Untitled.canvas",
     "LABS/DVWA.md",
     "HACK THE BOX/HackTheBox.md",
-    "Airgeddon.md",
-    "Pentesting Web - USACH.md",
+    "WIFI AUDIT/Airgeddon.md",
+    "PENTESTING WEB/Pentesting Web - USACH.md",
     "MITRE ATT&CK",
     "studyx.md",
     "HACK THE BOX",
@@ -212,16 +219,12 @@
     "CYBER KILL CHAIN/Installation.md",
     "CYBER KILL CHAIN/Explotation.md",
     "CYBER KILL CHAIN/Delivery.md",
-    "Taller AD Pentesting.md",
-    "CYBER KILL CHAIN/Weaponization.md",
+    "HACKING WINDOWS/Taller AD Pentesting.md",
     "CYBER KILL CHAIN.md",
     "CYBER KILL CHAIN",
     "Machines",
     "LABS",
-    "HackTheBox.md",
-    "Docker.md",
     "Untitled.base",
-    "Untitled 1.base",
     "Studyx.canvas"
   ]
 }
