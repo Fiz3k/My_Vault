@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CYBER KILL CHAIN/Installation.md",
+                "file": "MITRE ATT&CK/Persistence.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Installation"
+              "title": "Persistence"
             }
           }
         ]
@@ -188,12 +188,15 @@
   },
   "active": "da99b16779258063",
   "lastOpenFiles": [
-    "CYBER KILL CHAIN/Explotation.md",
+    "MITRE ATT&CK/Execution.md",
+    "MITRE ATT&CK/Persistence.md",
+    "MITRE ATT&CK/Initial Access.md",
     "CYBER KILL CHAIN/Installation.md",
+    "CYBER KILL CHAIN/Explotation.md",
+    "CYBER KILL CHAIN/Reconnaissance.md",
     "HACK THE BOX/HackTheBox.md",
     "REVERSE SHELL/Reverse Shell.md",
     "REVERSE SHELL",
-    "CYBER KILL CHAIN/Reconnaissance.md",
     "CYBER KILL CHAIN/Command and Control.md",
     "CYBER KILL CHAIN/Action on Objetives.md",
     "DOCKER/Docker.md",
@@ -220,11 +223,8 @@
     "CYBER KILL CHAIN",
     "Untitled.canvas",
     "Taller AD Pentesting.md",
-    "Machines/THL - Zapasguapas.md",
     "Machines",
-    "LABS/Lab AD + SCCM.md",
     "LABS",
-    "Airgeddon.md",
     "Studyx.canvas"
   ]
 }
