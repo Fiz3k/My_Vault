@@ -6,8 +6,8 @@ Host is up (0.00024s latency).
 Not shown: 65532 filtered tcp ports (no-response)  
 PORT    STATE  SERVICE  VERSION  
 22/tcp  closed ssh  
-**80/tcp  open   http     Apache httpd**  
-**443/tcp open   ssl/http Apache httpd**  
+80/tcp  open   http     Apache httpd  
+443/tcp open   ssl/http Apache httpd  
 MAC Address: 08:00:27:6E:46:02 (Oracle VirtualBox virtual NIC)
 
 ┌──(kode㉿localhost)-[~/Downloads]  

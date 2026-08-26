@@ -1,0 +1,3 @@
+- Reverse Shell
+Cuando un atacante aprovecha una vulnerabilidad en un software o servicio (por ejemplo, una inyección SQL, ejecución remota de comandos o deserialización insegura) y el _payload_ ejecutado fuerza a la víctima a enviar una conexión saliente de vuelta al atacante.
+La _reverse shell_ es la consecuencia inmediata de la explotación exitosa de la vulnerabilidad para ganar acceso interactivo.

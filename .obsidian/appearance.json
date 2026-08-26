@@ -1,4 +1,8 @@
 {
   "cssTheme": "steam",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "accentColor": "#f3e053",
+  "textFontFamily": "Hack",
+  "baseFontSize": 12,
+  "baseFontSizeAction": true
 }
