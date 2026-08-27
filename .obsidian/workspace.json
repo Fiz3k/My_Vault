@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MITRE ATT&CK/Persistence.md",
+                "file": "MITRE ATT&CK/*Definition*.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Persistence"
+              "title": "*Definition*"
             }
           }
         ]
@@ -188,8 +188,19 @@
   },
   "active": "da99b16779258063",
   "lastOpenFiles": [
-    "MITRE ATT&CK/Execution.md",
+    "CYBER KILL CHAIN/*Definition*.md",
+    "MITRE ATT&CK/Impact.md",
+    "MITRE ATT&CK/Exfiltration.md",
+    "MITRE ATT&CK/Command and Control.md",
+    "MITRE ATT&CK/Collection.md",
+    "MITRE ATT&CK/Lateral Movement.md",
+    "MITRE ATT&CK/Discovery.md",
+    "MITRE ATT&CK/Credential Access.md",
+    "MITRE ATT&CK/Defense Evasion.md",
+    "MITRE ATT&CK/Privilege Escalation.md",
+    "MITRE ATT&CK/*Definition*.md",
     "MITRE ATT&CK/Persistence.md",
+    "MITRE ATT&CK/Execution.md",
     "MITRE ATT&CK/Initial Access.md",
     "CYBER KILL CHAIN/Installation.md",
     "CYBER KILL CHAIN/Explotation.md",
@@ -204,25 +215,14 @@
     "PENTESTING WEB/Pentesting Web - USACH.md",
     "MITRE ATT&CK/Resource Development.md",
     "MITRE ATT&CK/Reconnaissance.md",
-    "HACKING WINDOWS/Tools.md",
-    "HACKING WINDOWS/Taller AD Pentesting.md",
-    "Machines/THB - Tortuga.md",
-    "Machines/THB - Fruits.md",
-    "Machines/Vulnhub - Mr robot.md",
-    "Machines/VulnCL.md",
-    "LABS/LAB AD + WEB docker.md",
-    "LABS/DVWA.md",
-    "WIFI AUDIT/Airgeddon.md",
     "WIFI AUDIT",
     "PENTESTING WEB",
     "MITRE ATT&CK",
     "HACKING WINDOWS",
     "DOCKER",
     "HACK THE BOX",
-    "CYBER KILL CHAIN/Delivery.md",
     "CYBER KILL CHAIN",
     "Untitled.canvas",
-    "Taller AD Pentesting.md",
     "Machines",
     "LABS",
     "Studyx.canvas"
