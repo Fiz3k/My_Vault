@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machines/THB - Support (Windows).md",
+                "file": "HACKING WINDOWS/Tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "THB - Support (Windows)"
+              "title": "Tools"
             }
           }
         ]
@@ -188,18 +188,25 @@
   },
   "active": "da99b16779258063",
   "lastOpenFiles": [
+    "HACKING WINDOWS/Windows Server.md",
+    "HACKING WINDOWS/Active Directory.md",
+    "HACKING WINDOWS/Taller AD Pentesting.md",
+    "HACKING WINDOWS/Tools.md",
+    "CYBER KILL CHAIN/Installation.md",
+    "CYBER KILL CHAIN/Explotation.md",
+    "CYBER KILL CHAIN/Command and Control.md",
+    "CYBER KILL CHAIN/Action on Objetives.md",
+    "CYBER KILL CHAIN/*Definition*.md",
+    "CYBER KILL CHAIN/Reconnaissance.md",
+    "Machines/THB - Tortuga (Linux).md",
+    "Machines/THB - Support (Windows).md",
+    "Machines/THB - Fruits (Linux).md",
+    "LABS/LAB AD + WEB docker.md",
+    "LABS/Lab AD + SCCM.md",
     "Machines/VulnCL.md",
     "Machines/Vulnhub - Mr robot (Linux).md",
-    "Machines/THB - Tortuga (Linux).md",
-    "Machines/THB - Fruits (Linux).md",
-    "Machines/THB - Support (Windows).md",
-    "HACKING WINDOWS/Taller AD Pentesting.md",
-    "HACKING WINDOWS/Windows Server.md",
-    "HACKING WINDOWS/Tools.md",
     "MITRE ATT&CK/*Definition*.md",
-    "CYBER KILL CHAIN/*Definition*.md",
     "LABS/DVWA.md",
-    "LABS/Lab AD + SCCM.md",
     "PENTESTING WEB/Pentesting Web - USACH.md",
     "DOCKER/Docker.md",
     "MITRE ATT&CK/Lateral Movement.md",
@@ -208,13 +215,6 @@
     "MITRE ATT&CK/Exfiltration.md",
     "MITRE ATT&CK/Command and Control.md",
     "MITRE ATT&CK/Collection.md",
-    "MITRE ATT&CK/Discovery.md",
-    "MITRE ATT&CK/Credential Access.md",
-    "MITRE ATT&CK/Defense Evasion.md",
-    "MITRE ATT&CK/Privilege Escalation.md",
-    "MITRE ATT&CK/Persistence.md",
-    "MITRE ATT&CK/Execution.md",
-    "MITRE ATT&CK/Initial Access.md",
     "REVERSE SHELL",
     "WIFI AUDIT",
     "PENTESTING WEB",

@@ -32,3 +32,6 @@ Reconocimiento Activo
 |                                      | `-oX <archivo>`                 | Guarda la salida en formato XML.                                                |
 |                                      | `-oG <archivo>`                 | Guarda la salida en formato interpretable por Grep.                             |
 |                                      | `-oA <nombre>`                  | Guarda el resultado en los tres formatos principales a la vez.                  |
+
+Base de Scripts de NMAP
+/usr/share/nmap/scripts/script.db

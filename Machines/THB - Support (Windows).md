@@ -28,12 +28,7 @@ Nmap done: 1 IP address (1 host up) scanned in 31.94 seconds
 Aprovechamos el puerto 445 para realizar un SMBMAP
 ==smbmap -H 10.129.97.235 -u usuario==             
   ________  ___      ___  _______   ___      ___       __         _______  
-  /"       )|"  \    /"  ||   _  "\ |"  \    /"  |     /""\       |   __ "\  
- (:   \___/  \   \  //   |(. |_)  :) \   \  //   |    /    \      (. |__) :)  
-  \___  \    /\  \/.    ||:     \/   /\   \/.    |   /' /\  \     |:  ____/  
-   __/  \   |: \.        |(|  _  \  |: \.        |  //  __'  \    (|  /  
-  /" \   :) |.  \    /:  ||: |_)  :)|.  \    /:  | /   /  \   \  /|__/ \  
- (_______/  |___|\__/|___|(_______/ |___|\__/|___|(___/    \___)(_______)  
+ 
 -----------------------------------------------------------------------------  
 SMBMap - Samba Share Enumerator v1.10.7 | Shawn Evans - ShawnDEvans@gmail.com  
                     https://github.com/ShawnDEvans/smbmap  
