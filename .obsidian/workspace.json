@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HACKING WINDOWS/Tools.md",
+                "file": "HACKING WINDOWS/Taller AD Pentesting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools"
+              "title": "Taller AD Pentesting"
             }
           }
         ]
@@ -188,10 +188,10 @@
   },
   "active": "da99b16779258063",
   "lastOpenFiles": [
-    "HACKING WINDOWS/Windows Server.md",
     "HACKING WINDOWS/Active Directory.md",
-    "HACKING WINDOWS/Taller AD Pentesting.md",
     "HACKING WINDOWS/Tools.md",
+    "HACKING WINDOWS/Windows Server.md",
+    "HACKING WINDOWS/Taller AD Pentesting.md",
     "CYBER KILL CHAIN/Installation.md",
     "CYBER KILL CHAIN/Explotation.md",
     "CYBER KILL CHAIN/Command and Control.md",
