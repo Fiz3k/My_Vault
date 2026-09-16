@@ -13,19 +13,13 @@ El objetivo: DOMINIO `corp.local`
 El gráfico parte del dominio objetivo (`corp.local`). Desde aquí, el atacante quiere mapear todo el entorno para encontrar vectores de ataque, escalar privilegios y moverse lateralmente.
 
 ## USUARIOS - `net user` / `GetADUsers.py`
-
-**¿Qué se busca?**
-
 - Listar todos los usuarios del dominio.
 - Identificar **usuarios administrativos** (Administrador, admins de dominio, admins de empresa).  
 - Buscar **usuarios con nombres descriptivos** (ej: `svc_sql`, `svc_backup`, `svc_exchange`) que suelen ser cuentas de servicio.
 
 **Herramientas:**
-
 - **`net user`**: Comando nativo de Windows (desde la máquina víctima).
 - **`GetADUsers.py`**: Script de Impacket desde Kali (requiere autenticación).
-
-**¿Por qué es importante?**
 
 - Los usuarios administrativos son objetivos de primer nivel.
 - Las cuentas de servicio suelen tener **contraseñas débiles o estáticas** y son ideales para ataques de **Kerberoasting**.
@@ -33,9 +27,6 @@ El gráfico parte del dominio objetivo (`corp.local`). Desde aquí, el atacante 
 
 
 EQUIPOS - `Get-DomainComputer`
-
-**¿Qué se busca?**
-
 - Listar todos los equipos del dominio (estaciones de trabajo, servidores, controladores de dominio).
 - Identificar **sistemas operativos**, **roles** (DC, SQL, Exchange, web, archivos).
 - Detectar **equipos con altos privilegios** (ej: servidores de backup, servidores de administración).
@@ -44,16 +35,11 @@ EQUIPOS - `Get-DomainComputer`
 
 - **`Get-DomainComputer`**: Script de PowerView (PowerShell).
 
-**¿Por qué es importante?**
-
 - Los servidores críticos (DC, SQL, Exchange) son objetivos principales.
 - Las estaciones de trabajo de administradores son objetivos de movimiento lateral.
 - Equipos con sistemas operativos antiguos pueden tener vulnerabilidades.
 
 GRUPOS - `Get-DomainGroupMember`
-
-**¿Qué se busca?**
-
 - Identificar miembros de grupos privilegiados:
     
     - `Domain Admins`
@@ -75,8 +61,6 @@ GRUPOS - `Get-DomainGroupMember`
 
 - **`Get-DomainGroupMember`**: PowerView. 
 
-**¿Por qué es importante?**
-
 - Encontrar **quién puede hacer qué** en el dominio.
 - Identificar **anidamiento de grupos** (grupos que contienen otros grupos).
 - Buscar **grupos con permisos inusuales** (ej: un grupo de usuarios normales que tiene permisos de administración local en servidores).
@@ -84,8 +68,6 @@ GRUPOS - `Get-DomainGroupMember`
 
 
 ## CUENTAS SPN - `setspn` / `GetUserSPNs.py`
-
-**¿Qué se busca?**
 
 - Listar todas las cuentas con **Service Principal Names (SPN)** asociados.
 - Identificar **qué servicios se ejecutan** y **qué cuentas los ejecutan**.
@@ -95,14 +77,9 @@ GRUPOS - `Get-DomainGroupMember`
 - **`setspn`**: Comando nativo de Windows.
 - **`GetUserSPNs.py`**: Script de Impacket desde Kali.
 
-**¿Por qué es importante?**
-
 - Todas las cuentas con SPN son vulnerables a **Kerberoasting**.
 - El atacante solicita tickets de servicio para cada SPN, los descarga y trata de descifrar sus contraseñas fuera de línea.
 - Si alguna contraseña es débil, el atacante obtiene la cuenta de servicio.
-
-
-
 
 SHARES SMB - `smbmap` / `smbclient`
 
@@ -117,8 +94,6 @@ SHARES SMB - `smbmap` / `smbclient`
 - **`smbmap`**: Enumera y muestra permisos de SMB shares. 
 - **`smbclient`**: Cliente SMB para interactuar con los shares.
 
-**¿Por qué es importante?**
-
 - Los shares SMB suelen contener información sensible.
 - Los archivos de configuración pueden contener contraseñas en texto plano.
 - Pueden encontrarse scripts de automatización con credenciales embebidas.
@@ -126,10 +101,7 @@ SHARES SMB - `smbmap` / `smbclient`
 
 
 POLÍTICAS - `net accounts /domain`
-
-**¿Qué se busca?**
-
-- Políticas de contraseñas del dominio:
+de contraseñas del dominio:
     
     - Longitud mínima de contraseña.
         
@@ -179,3 +151,29 @@ ACLS PELIGROSAS - `BloodHound` / `PowerView`
 - Un usuario con permisos de escritura en un grupo de administradores puede agregarse a sí mismo.
 - Permisos de reseteo de contraseña en un administrador pueden dar acceso total.
 - BloodHound automatiza la búsqueda de estos caminos y los muestra gráficamente.
+
+                    DOMAIN
+                  corp.local
+                       │
+                       ▼
+               ┌──────────────┐
+               │    NMAP      │
+               └──────┬───────┘
+                      │
+            Descubrimos servicios
+                      │
+        ┌─────────────┼──────────────┐
+        ▼             ▼              ▼
+       SMB           LDAP          Kerberos
+        │             │              │
+        ▼             ▼              ▼
+     NetExec      ldapsearch     Impacket
+     smbclient        │          ┌────┴─────┐
+        │             │          ▼          ▼
+        ▼             ▼    GetUserSPNs  GetNPUsers
+     Shares        Usuarios      │           │
+     Política      Grupos        ▼           ▼
+                              SPN       DONT_PREAUTH
+                                │           │
+                                ▼           ▼
+                         Kerberoasting  AS-REP
