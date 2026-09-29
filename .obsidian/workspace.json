@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machines/THL - Company.md",
+                "file": "MITRE ATT&CK/*Definition*.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "THL - Company"
+              "title": "*Definition*"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.44140625
+    "width": 286.0546875
   },
   "right": {
     "id": "c2b8339010fc68d7",
@@ -188,8 +188,11 @@
   },
   "active": "da99b16779258063",
   "lastOpenFiles": [
-    "LABS/LAB AD + WEB docker.md",
+    "Machines/Vulnhub - Mr robot (Linux).md",
+    "Machines/VulnCL.md",
     "Machines/THL - Company.md",
+    "MITRE ATT&CK/Command and Control.md",
+    "LABS/LAB AD + WEB docker.md",
     "Untitled 1.md",
     "LABS/Lab AD + SCCM.md",
     "Untitled.md",
@@ -207,14 +210,11 @@
     "Machines/THB - Tortuga (Linux).md",
     "Machines/THB - Support (Windows).md",
     "Machines/THB - Fruits (Linux).md",
-    "Machines/VulnCL.md",
-    "Machines/Vulnhub - Mr robot (Linux).md",
     "MITRE ATT&CK/*Definition*.md",
     "PENTESTING WEB/Pentesting Web - USACH.md",
     "DOCKER/Docker.md",
     "MITRE ATT&CK/Lateral Movement.md",
     "Untitled.canvas",
-    "MITRE ATT&CK/Impact.md",
     "REVERSE SHELL",
     "WIFI AUDIT",
     "PENTESTING WEB",
